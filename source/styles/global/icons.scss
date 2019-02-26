@@ -1,0 +1,42 @@
+@import "sprite";
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon-arrow-white {
+    @include sprite($arrow-white);
+}
+
+.icon-arrow-yellow {
+    @include sprite($arrow-yellow);
+}
+
+.icon-burger {
+    @include sprite($burger);
+}
+
+.icon-facebook {
+    @include sprite($facebook);
+}
+
+.icon-google {
+    @include sprite($google);
+}
+
+.icon-heart {
+    @include sprite($heart);
+}
+
+.icon-linkedin {
+    @include sprite($linkedin);
+}
+
+.icon-logo {
+    @include sprite($logo);
+}
+
+.icon-twitter {
+    @include sprite($twitter);
+}
